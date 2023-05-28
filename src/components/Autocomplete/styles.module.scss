@@ -1,0 +1,15 @@
+@import 'styles/global.scss';
+
+.autocompleteContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .title{
+    color: $darkBlue;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+

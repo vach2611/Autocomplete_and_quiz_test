@@ -1,0 +1,10 @@
+@import 'styles/global.scss';
+
+.textInput {
+    outline: none;
+    height: 30px;
+    border-radius: 4px;
+    padding: 0 10px;
+    border: 1px solid $black;
+    width: 20%;
+}

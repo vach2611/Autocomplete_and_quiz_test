@@ -1,0 +1,14 @@
+@import 'styles/global.scss';
+
+.userItem {
+    border-bottom: 1px solid $darkGrey;
+    padding: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: .3s;
+
+    &:hover > *{
+        color: $darkGrey;
+    }
+
+}
